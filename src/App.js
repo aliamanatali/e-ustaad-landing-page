@@ -4,7 +4,7 @@ import Mainscreen from './components/mainscreen';
 import Navbar from './components/navbar';
 import Popularteachers from './components/popularteachers';
 import Topsubs from './components/topsubs';
-
+import Tutorfindscreen from './components/tutorfindscreen'
 function App() {
   return (
     <div className="container screen">
@@ -12,6 +12,7 @@ function App() {
       <Mainscreen />
       <Popularteachers/>
       <Topsubs/>
+      <Tutorfindscreen/>
     </div>
   );
 }
